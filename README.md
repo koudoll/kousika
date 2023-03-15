@@ -2,6 +2,7 @@
 # customer conversion prediction
 # Exploratory Data Analysis
 (df.groupby("job")["target"].mean()*100).sort_values().plot(kind="barh")
+
 ![image](https://user-images.githubusercontent.com/117351889/225285382-dc216030-a65b-47a2-8f1d-903d86214050.png)
 
 
