@@ -14,7 +14,8 @@ According to the above graph:
 It is an ordered and linear relationship
 
 (df.groupby("education_qual")["target"].mean()*100).sort_values().plot(kind="barh",color="green")
-     
+![image](https://user-images.githubusercontent.com/117351889/225285803-9b0bc546-bf88-4f7d-97cf-7f1dc1d232c1.png)
+
 
 
 
